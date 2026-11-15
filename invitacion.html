@@ -1,6 +1,29 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Yamileth y Raúl</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yamileth y Raúl · Nuestra boda</title>
+<meta name="description" content="Sábado 28 de noviembre de 2026. Con mucho cariño te invitamos a celebrar nuestra boda.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Yamileth &amp; Raúl">
+<meta property="og:title" content="Yamileth &amp; Raúl · Nuestra boda">
+<meta property="og:description" content="Sábado 28 de noviembre de 2026. Con mucho cariño te invitamos a celebrar nuestra boda.">
+<meta property="og:url" content="https://razr99.github.io/wedding/Invitacion.html">
+<meta property="og:image" content="https://razr99.github.io/wedding/miniatura.jpg">
+<meta property="og:image:secure_url" content="https://razr99.github.io/wedding/miniatura.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Yamileth y Raúl abrazados frente al mar, mirándose sonrientes">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yamileth &amp; Raúl · Nuestra boda">
+<meta name="twitter:description" content="Sábado 28 de noviembre de 2026. Con mucho cariño te invitamos a celebrar nuestra boda.">
+<meta name="twitter:image" content="https://razr99.github.io/wedding/miniatura.jpg">
+<meta name="theme-color" content="#0e0e0f">
+<style>[hidden]{display:none!important} img{max-width:100%}</style>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -100,6 +123,9 @@
   p { margin: 0 0 1em; text-wrap: pretty; }
   .lead { font-style: italic; font-size: 1.12em; color: var(--ink-soft); max-width: 34em; margin-inline: auto; }
 
+  .pases { margin: 8px 0 22px; }
+  .pases span { display: inline-block; font-family: var(--font-label); font-size: 12px; font-weight: 500; letter-spacing: .24em; text-transform: uppercase; color: var(--ink); border: 1px solid var(--accent); padding: 10px 18px; background: rgba(216,189,143,.12); }
+
   /* Cuenta regresiva */
   .count { display: flex; justify-content: center; gap: clamp(14px, 4vw, 34px); margin-top: 22px; flex-wrap: wrap; }
   .count div { min-width: 64px; }
@@ -134,6 +160,8 @@
   .toast { position: fixed; left: 50%; bottom: max(24px, env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--accent); color: var(--bg); font-family: var(--font-label); font-size: 12px; letter-spacing: .12em; padding: 10px 18px; opacity: 0; pointer-events: none; transition: opacity .25s; z-index: 20; }
   .toast.show { opacity: 1; }
 </style>
+</head>
+<body>
 
 <div class="photo" role="img" aria-label="Yamileth y Raúl abrazados frente al mar, mirándose sonrientes"></div>
 <div class="veil"></div>
@@ -153,6 +181,7 @@
     <h2 id="t-invita">Te invitamos a celebrar</h2>
     <hr class="divider">
     <p class="lead">El amor es el regalo más grande de Dios, y queremos compartirlo contigo en nuestra boda.</p>
+    <p class="pases"><span>Invitación válida para 2 personas</span></p>
     <p class="date-line" id="fecha-texto">Fecha por confirmar</p>
     <div class="count" id="cuenta" hidden aria-live="off">
       <div><b id="c-d">0</b><span>Días</span></div>
@@ -162,12 +191,25 @@
     </div>
   </section>
 
+  <div class="events" id="detalles">
+    <section class="panel" aria-labelledby="t-civil">
+      <span class="label">Boda civil</span>
+      <div class="time">5:00<small>P.M.</small></div>
+      <h2 id="t-civil">Ceremonia</h2>
+      <p class="place">Registro Civil, Monterrey</p>
+      <p class="addr">Calle Modesto Arreola 306 Oriente, Despacho 100, entre Galeana y Emilio Carranza, Monterrey, N. L.</p>
+      <div class="actions">
+        <a class="btn" target="_blank" rel="noopener" href="https://maps.app.goo.gl/guDR8Bjgad2279NB8">Ver mapa</a>
+        <button class="btn ghost" type="button" data-copy="Calle Modesto Arreola 306 Oriente, Despacho 100, entre Galeana y Emilio Carranza, Monterrey, N. L.">Copiar dirección</button>
+      </div>
+    </section>
+
     <section class="panel" aria-labelledby="t-cena">
       <span class="label">Celebración</span>
       <div class="time">6:00<small>P.M.</small></div>
       <h2 id="t-cena">Cena</h2>
       <p class="place">Los Generales, sucursal San Nicolás</p>
-      <p class="addr">Av. Manuel L. Barragán, San Nicolás de los Garza, N. L.</p>
+      <p class="addr">Av. Barragán, San Nicolás de los Garza, N. L.</p>
       <div class="actions">
         <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Los+Generales+Av.+Barrag%C3%A1n+San+Nicol%C3%A1s+de+los+Garza">Ver mapa</a>
         <button class="btn ghost" type="button" data-copy="Los Generales, sucursal San Nicolás, Av. Barragán, San Nicolás de los Garza, N. L.">Copiar dirección</button>
@@ -231,4 +273,5 @@
   })();
 </script>
 
-</body></html>
+</body>
+</html>
